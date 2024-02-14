@@ -11,6 +11,7 @@
 		B66219BD2B7CB3C1008658D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66219BC2B7CB3C1008658D9 /* ContentView.swift */; };
 		B66219BF2B7CB3C4008658D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66219BE2B7CB3C4008658D9 /* Assets.xcassets */; };
 		B66219C22B7CB3C4008658D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66219C12B7CB3C4008658D9 /* Preview Assets.xcassets */; };
+		B66219C92B7CB4D4008658D9 /* FitResizeImageToFitSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66219C82B7CB4D4008658D9 /* FitResizeImageToFitSpace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B66219BC2B7CB3C1008658D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B66219BE2B7CB3C4008658D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66219C12B7CB3C4008658D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B66219C82B7CB4D4008658D9 /* FitResizeImageToFitSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitResizeImageToFitSpace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B66219BA2B7CB3C1008658D9 /* PreProject8App.swift */,
 				B66219BC2B7CB3C1008658D9 /* ContentView.swift */,
+				B66219C82B7CB4D4008658D9 /* FitResizeImageToFitSpace.swift */,
 				B66219BE2B7CB3C4008658D9 /* Assets.xcassets */,
 				B66219C02B7CB3C4008658D9 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				B66219BD2B7CB3C1008658D9 /* ContentView.swift in Sources */,
 				B66219BB2B7CB3C1008658D9 /* PreProject8App.swift in Sources */,
+				B66219C92B7CB4D4008658D9 /* FitResizeImageToFitSpace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
