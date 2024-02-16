@@ -17,6 +17,10 @@
 		B69FAAB92B7E011F00253DAE /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FAAB82B7E011F00253DAE /* CustomText.swift */; };
 		B69FAABB2B7E03AE00253DAE /* ScrollHorizontally.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FAABA2B7E03AE00253DAE /* ScrollHorizontally.swift */; };
 		B69FAABD2B7E08BC00253DAE /* UsingNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FAABC2B7E08BC00253DAE /* UsingNavigationLink.swift */; };
+		B6C1818E2B7F9C8000A9E143 /* HierarchicalCodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1818D2B7F9C8000A9E143 /* HierarchicalCodableData.swift */; };
+		B6C181902B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1818F2B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift */; };
+		B6C181922B7FA8FF00A9E143 /* AdaptativeGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C181912B7FA8FF00A9E143 /* AdaptativeGrid.swift */; };
+		B6C181942B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C181932B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		B69FAAB82B7E011F00253DAE /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 		B69FAABA2B7E03AE00253DAE /* ScrollHorizontally.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollHorizontally.swift; sourceTree = "<group>"; };
 		B69FAABC2B7E08BC00253DAE /* UsingNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNavigationLink.swift; sourceTree = "<group>"; };
+		B6C1818D2B7F9C8000A9E143 /* HierarchicalCodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalCodableData.swift; sourceTree = "<group>"; };
+		B6C1818F2B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem_LazyHGrid_LazyVGrid.swift; sourceTree = "<group>"; };
+		B6C181912B7FA8FF00A9E143 /* AdaptativeGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptativeGrid.swift; sourceTree = "<group>"; };
+		B6C181932B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizontal_LazyGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +71,18 @@
 		B66219B92B7CB3C1008658D9 /* PreProject8 */ = {
 			isa = PBXGroup;
 			children = (
-				B66219BA2B7CB3C1008658D9 /* PreProject8App.swift */,
 				B66219BC2B7CB3C1008658D9 /* ContentView.swift */,
+				B69FAAB82B7E011F00253DAE /* CustomText.swift */,
 				B66219C82B7CB4D4008658D9 /* FitResizeImageToFitSpace.swift */,
+				B6C1818D2B7F9C8000A9E143 /* HierarchicalCodableData.swift */,
+				B69FAAB62B7E006B00253DAE /* LazyStack.swift */,
+				B66219BA2B7CB3C1008658D9 /* PreProject8App.swift */,
+				B69FAABA2B7E03AE00253DAE /* ScrollHorizontally.swift */,
 				B69FAAB42B7DFDCD00253DAE /* ScrollView_V_H_Stacks.swift */,
 				B69FAABC2B7E08BC00253DAE /* UsingNavigationLink.swift */,
-				B69FAABA2B7E03AE00253DAE /* ScrollHorizontally.swift */,
-				B69FAAB62B7E006B00253DAE /* LazyStack.swift */,
-				B69FAAB82B7E011F00253DAE /* CustomText.swift */,
+				B6C1818F2B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift */,
+				B6C181912B7FA8FF00A9E143 /* AdaptativeGrid.swift */,
+				B6C181932B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift */,
 				B66219BE2B7CB3C4008658D9 /* Assets.xcassets */,
 				B66219C02B7CB3C4008658D9 /* Preview Content */,
 			);
@@ -155,12 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C181902B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift in Sources */,
 				B69FAABD2B7E08BC00253DAE /* UsingNavigationLink.swift in Sources */,
+				B6C1818E2B7F9C8000A9E143 /* HierarchicalCodableData.swift in Sources */,
 				B66219BD2B7CB3C1008658D9 /* ContentView.swift in Sources */,
 				B66219BB2B7CB3C1008658D9 /* PreProject8App.swift in Sources */,
 				B69FAABB2B7E03AE00253DAE /* ScrollHorizontally.swift in Sources */,
 				B66219C92B7CB4D4008658D9 /* FitResizeImageToFitSpace.swift in Sources */,
+				B6C181942B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift in Sources */,
 				B69FAAB52B7DFDCD00253DAE /* ScrollView_V_H_Stacks.swift in Sources */,
+				B6C181922B7FA8FF00A9E143 /* AdaptativeGrid.swift in Sources */,
 				B69FAAB72B7E006B00253DAE /* LazyStack.swift in Sources */,
 				B69FAAB92B7E011F00253DAE /* CustomText.swift in Sources */,
 			);
