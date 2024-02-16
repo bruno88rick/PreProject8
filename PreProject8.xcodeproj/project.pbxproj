@@ -21,6 +21,7 @@
 		B6C181902B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1818F2B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift */; };
 		B6C181922B7FA8FF00A9E143 /* AdaptativeGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C181912B7FA8FF00A9E143 /* AdaptativeGrid.swift */; };
 		B6C181942B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C181932B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift */; };
+		B6C181962B7FDBEC00A9E143 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B6C181952B7FDBEC00A9E143 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B6C1818F2B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItem_LazyHGrid_LazyVGrid.swift; sourceTree = "<group>"; };
 		B6C181912B7FA8FF00A9E143 /* AdaptativeGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptativeGrid.swift; sourceTree = "<group>"; };
 		B6C181932B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizontal_LazyGrid.swift; sourceTree = "<group>"; };
+		B6C181952B7FDBEC00A9E143 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B6C1818F2B7FA6D900A9E143 /* GridItem_LazyHGrid_LazyVGrid.swift */,
 				B6C181912B7FA8FF00A9E143 /* AdaptativeGrid.swift */,
 				B6C181932B7FAAFB00A9E143 /* Horizontal_LazyGrid.swift */,
+				B6C181952B7FDBEC00A9E143 /* data.json */,
 				B66219BE2B7CB3C4008658D9 /* Assets.xcassets */,
 				B66219C02B7CB3C4008658D9 /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B66219C22B7CB3C4008658D9 /* Preview Assets.xcassets in Resources */,
+				B6C181962B7FDBEC00A9E143 /* data.json in Resources */,
 				B66219BF2B7CB3C4008658D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
